@@ -1,0 +1,18 @@
+Psuedo Profile
+
+Role samba
+  profile accounts
+  profile samba
+  profile ldap-client
+  profile ntp
+
+Role monitoring
+  profile accounts
+  profile ntp
+  profile icinga
+
+Role AAA
+  profile accounts
+  profile ntp
+  profile ldap-client
+  profile freeradius
